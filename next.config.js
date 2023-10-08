@@ -7,6 +7,8 @@ const nextConfig = {
     POSTGRES_HOST: process.env.POSTGRES_HOST,
     POSTGRES_PASSWORD: process.env.POSTGRES_PASSWORD,
     POSTGRES_DATABASE: process.env.POSTGRES_DATABASE,
+    MONGODB_URL: process.env.MONGODB_URL,
+    MONGODB_PRISMA_CUSTOM_URL: process.env.MONGODB_PRISMA_CUSTOM_URL,
   },
 };
 
